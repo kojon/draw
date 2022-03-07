@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T09:13:24.251Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="s--N5yD7wUm2H_IAL1dw" version="16.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T09:18:10.912Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="D84Z7FI3mqD8uj1TYQx1" version="16.6.6" type="github">
   <diagram id="DBV8wZsSGvX2jwQpm6d3" name="第 1 页">
-    <mxGraphModel dx="1753" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2580" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -133,6 +133,25 @@
         <mxCell id="rHXohSRp-2kM2scYEGQ9-38" value="iohandler" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-130" y="205" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="rHXohSRp-2kM2scYEGQ9-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rHXohSRp-2kM2scYEGQ9-40" target="rHXohSRp-2kM2scYEGQ9-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-460" y="235" />
+              <mxPoint x="-460" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rHXohSRp-2kM2scYEGQ9-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rHXohSRp-2kM2scYEGQ9-40" target="rHXohSRp-2kM2scYEGQ9-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rHXohSRp-2kM2scYEGQ9-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rHXohSRp-2kM2scYEGQ9-40" target="rHXohSRp-2kM2scYEGQ9-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-460" y="235" />
+              <mxPoint x="-460" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="rHXohSRp-2kM2scYEGQ9-40" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;HttpServerHandler&lt;/pre&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-400" y="205" width="160" height="60" as="geometry" />
         </mxCell>
@@ -141,6 +160,24 @@
         </mxCell>
         <mxCell id="rHXohSRp-2kM2scYEGQ9-46" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;Handler&amp;nbsp;&lt;/span&gt;&lt;span&gt;extends ChannelInboundHandlerAdapter implements ApplicationContextAware&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="-400" y="265" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rHXohSRp-2kM2scYEGQ9-47" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;channelRead0&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="90" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rHXohSRp-2kM2scYEGQ9-49" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;onReceivedRequest&lt;/pre&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="205" width="170" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="rHXohSRp-2kM2scYEGQ9-50" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;handleHttpRequest&lt;/pre&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="305" width="170" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="rHXohSRp-2kM2scYEGQ9-53" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;Handler.execute&lt;/pre&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="305" width="210" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rHXohSRp-2kM2scYEGQ9-54" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;接收请求&lt;/pre&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="215" width="210" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="rHXohSRp-2kM2scYEGQ9-55" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;读取IO请求&lt;/pre&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="107.5" width="210" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
